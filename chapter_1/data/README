@@ -1,0 +1,119 @@
+100KB.txt.gz
+Table containing median 12-mer abundance per 100KB genomic window for all samples. 
+
+45S_At3.assoc.txt.gz
+GWAS for 45S rDNA repeat
+
+45S_At3.assoc.txt2
+GWAS for 45S rDNA repeat with p value deflation
+
+ANC_STATE_1001_GENOMES.txt.gz
+Assignment of ancestral and derived allele states per SNP in 1001 genomes based on pairwise alignment between Ath and Aly
+
+A_thal_complete_buscos.bed
+Position of complete single copy buscos in TAIR10 assembly
+
+A_thal_cov_ests_norm.txt.gz
+coverage based copy number estimates for repeats for all samples. 
+
+A_thal_kmer_abund_busco.txt.gz
+12-mer based copy number estimates of busco genes for all samples
+
+A_thal_kmer_abund_norm.txt.gz
+12-mer based copy number estimates for all samples
+
+A_thaliana_Repeat_Database.txt.gz
+List of repeats used for this study
+
+All_Samples.txt.gz
+Sample list for this study
+
+Araport11_genes.bed
+bedfile containing positions of all genes in TAIR10 assembly based on Araport 11 annotation. 
+
+TAIR10_Transposable_Elements.txt.gz
+Transposon annotation for TAIR10 genome
+
+TAIR10_ranges.txt.gz
+chromosome lens for TAIR10 assembly
+
+TAIR10_repeats.bed
+Position of repeats in TAIR10 assembly from RepeatMasker annotation ran individually per repeat. 
+
+TAIR10_seq_abun.txt.gz
+12-mer based copy number estimates for TAIR10 genes in reference genome
+
+TAIR10_seq_abun_TE.txt.gz
+12-mer based copy number estimates for TAIR10 TEs 
+
+TAIR10_seq_abun_buscos.txt.gz
+12-mer based copy number estiamtes for BUSCOs in TAIR10
+
+cent_pericent_Underwood_2018.txt.gz
+ranges describing centromere + pericentromere according to Underwood et al. 2018
+
+cov_genes.txt.gz
+???
+
+cov_repeats.txt.gz
+???
+
+dnatrans_beta_mean.txt.gz
+mean beta of minor allele across sequences included in DNA transposon meta-GWAS
+
+dnatrans_lst.txt.gz
+list of sequences included in DNA transposon meta-GWAS
+
+dnatrans_meta.txt.gz
+meta-GWAS for DNA transposons
+
+features.txt.gz
+positions of cytological features in TAIR10
+
+fishers_incent_gwas.txt.gz
+Fisher's exact test stats to test if sequences enriched in the centromere
+
+gene_lst.txt.gz
+list of genes included in meta-GWAS (not used)
+
+gene_meta.txt.gz
+gene meta-GWAS (not used)
+
+gwas_lst.txt.gz
+lst of GWAS 
+
+metagwas_top1326_pruned_2.txt.gz
+lst of SNPs found in top 0.1% in 2 or all three meta-GWAS
+
+metagwas_top1326_unique_class.txt.gz
+lst of SNPS in top 0.1% of meta-GWAS by sequence class
+
+metagwas_top1326_unique_count.txt.gz
+number of times each SNP was in top 0.1% of metaGWAS
+
+ns_s_gw_ratios_group.txt.gz
+ratio of mean nonsyn daf : mean syn daf per group. 
+
+repeat_seq_dif.txt.gz
+tests for difference in repeat abundance between Africa and focal admixture group
+
+retrotrans_lst.txt.gz
+lst of retrotransposons included in meta-GWAS
+
+retrotrans_meta.txt.gz
+meta-GWAS for retrotransposons
+
+snps_lowp.txt.gz
+parsed SNPs with low p < 0.001 for all GWAS
+
+sr_lst.txt.gz
+lst of simple repeats included in meta-GWAS
+
+sr_meta.txt.gz
+simple repeat meta-GWAS
+
+stats.txt.gz
+best K stats for repetitive and non-repetitive bins of the TAIR10 assembly
+
+variable_sequences.txt.gz
+lst of repeats with copy number variability (sR) > top 1% of BUSCOS

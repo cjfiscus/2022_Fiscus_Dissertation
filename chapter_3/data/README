@@ -1,0 +1,89 @@
+IITA-Cowpea collection.xls
+full IITA cowpea collection sample information
+
+UNSD_M49_2022.csv
+UN country designation by region
+
+admixture_runs/
+ADMIXTURE runs
+
+af.frq
+allele frequency across all samples
+
+af.frq.strat
+allele frequency across samples divided by biostatus
+
+cluster_assignments.txt.gz
+ADMIXTURE based subpop assignments for K = 2-4
+
+combined_phenotypes.txt.gz
+lst of combined phenotypes derived from IITA phenotype data
+
+cowpea_gwas.fam
+raw phenotype values per sample in plink .fam format
+
+cowpea_gwas_combined.fam
+raw phenotype values per sample for combined phenotypes in plink .fam format
+
+dist.dist
+pairwise hamming distance for all samples calculated by plink
+
+dist.dist.id
+column and row names for dist.dist.
+
+evannoMethodStructure.txt.gz
+pophelpr R package output for evanno method for structure runs
+
+fstat.het
+F stats by sample
+
+gwas/
+gwas .assoc.txt files produced by gemma
+
+logli.txt.gz
+loglikelihood for ADMIXTURE runs
+
+master_phenotype_table.txt.gz
+master list of phenotypes used in study, includes combined phenotypemaster list of phenotypes used in study, includes combined phenotypes
+
+pairwise_fst.txt.gz
+pariwise fst for structure population assignments
+
+pheno_by_group_fisher.txt.gz
+fisher's exact test for differences in binary phenotypes between admixture K = 2 subpops
+
+pheno_by_group_fisher_OLD.txt.gz
+old data, ignore
+
+pheno_by_group_wilcox.txt.gz
+wmw test for differences in quant. phenotypes between admixture K = 2 subpops
+
+pheno_by_group_wilcox_OLD.txt.gz
+old data, ignore
+
+phenotype_encoding_table.txt.gz
+key table describing how non-quantitative phenotypes were encoded for gwas
+
+phenotypes.txt.gz
+list of all 233 IITA phenotypes (qualtitative variables made into separate phenotypes by state)
+
+phenotypes_by_categories.txt.gz
+lst of all 233 IITA phenotypes categorized by trait type
+
+prop_var_pc.txt.gz
+pca of allele freqs prop variance explained
+
+pruned.fam
+???
+
+samples.txt.gz
+samples contained on the array
+
+samples_filtered.txt.gz
+samples that survived genotype filtering
+
+scores_pc.txt.gz
+scores for pca of allele freqs
+
+snps_filtered.txt.gz
+snps that survived filtering

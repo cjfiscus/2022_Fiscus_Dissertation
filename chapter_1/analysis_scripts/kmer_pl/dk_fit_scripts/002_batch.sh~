@@ -1,0 +1,15 @@
+#!/bin/bash -l
+#SBATCH --ntasks=1
+#SBATCH --mem=10G
+#SBATCH --time=01:00:00
+#SBATCH --array=1-1%840
+#SBATCH --output=correctkmer
+#SBATCH --job-name="correctkmer"
+#SBATCH --partition=batch
+cd /rhome/dkoenig/bigdata/SCRATCH/MODEL_FIT_SEQ_BY_REMOVE/DATA/OUTPUT/
+mkdir CORRECTED
+cd CORRECTED
+
+thefile=`ls ../SPLIT_IT/ | head -n ${SLURM_ARRAY_TASK_ID} | tail -n1`
+Rscript  ../../../SCRIPTS/R_proc.r ../SPLIT_IT/${thefile} ../../INPUT/line_annot.txt out.${thefile}
+

@@ -1,2 +1,2 @@
 # 2022_Fiscus_Dissertation
-Code repo for dissertation
+This repo contains the scripts and data to reproduce the main analyses and figures described in the dissertation "Causes and Consequences of Plant Genome Evolution" by Christopher Fiscus, submitted in partial satisfaction of the requirements for the degree of Doctor of Philosphy in Genetics, Genomics & Bioinformatics from the University of California, Riverside, September 2022.   

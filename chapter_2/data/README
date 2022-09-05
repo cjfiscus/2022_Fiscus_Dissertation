@@ -1,0 +1,92 @@
+Cbp_genes.bed
+Cbp gene annotation
+
+Co_CbpCo_snp.txt.gz
+proportion of snps by class between Co and CbpCo
+
+Co_CbpCo_sv.txt.gz
+lst of structural variants between Co and CbpCo
+
+Cr_CbpCr_snp.txt.gz
+proportion of snps by class between Cr and CbpCg
+
+Cr_CbpCr_sv.txt.gz
+lst of structural variants between Cr and CbpCg
+
+GWAS_bioclimpc1_closest_GO.txt.gz
+GO analysis for genes closest to sig. snps in bioclim PC1 GWAS
+
+GWAS_bioclimpc2_closest_GO.txt.gz
+GO analysis for genes closest to sig. snps in bioclim PC2 GWAS
+
+SCF_14_15183887.txt.gz
+alleles by sample for SCF_14:15183887
+
+bioclim_PC1.assoc.txt.gz
+GWAS for bioclim PC1
+
+bioclim_PC2.assoc.txt.gz
+GWAS for bioclim PC2
+
+bioclim_pc_loadings.txt.gz
+biolim PCA loadings
+
+bioclim_pc_scores.txt.gz
+bioclim PCA scores
+
+bioclim_per_var_exp.txt.gz
+biolim PCA percent variance explained
+
+cbpco_feats_100kb.txt.gz
+number of svs by class per 100KB window in cbpco
+
+cbpcr_feats_100kb.txt.gz
+number of svs by class per 100KB window in cbpcr
+
+cluster_assignments.txt.gz
+admixutre cluster assigments for K = 2-4
+
+cn_increase_GO.txt.gz
+enriched GO terms for orthologs with copy number increase
+
+cn_lostall_GO.txt.gz
+enriched GO terms for othologs with copy number loss
+
+highlight_snps.txt.gz
+SNPs to highlight in bioclim GWAS
+
+kcc.txt.gz
+KGC climate zones by major climate type
+
+kgc_zones.txt.gz
+KGC climate zone per sample
+
+logli.txt.gz
+loglikelihood for admixture runs
+
+mean_dist_groups.txt.gz
+mean Hamming genetic distance per sample from designated geographic groups
+
+pg_overall.txt.gz
+number of genes with copy number change or not between subgenomes
+
+pg_shared.txt.gz
+same data described in pg_overall.txt but parsed by direction of copy number change and by pangenome
+
+pg_single_lineage.txt.gz
+number of genes undergoing copy number change for genes found only in one progenitor genome
+
+prop_var_pc.txt.gz
+proportion of variance explained in genetic PCA
+
+rad_data_samples_cw.txt.gz
+sample list
+
+repeat_summary.txt.gz
+EDTA derived repeat copy number by genome and repeat
+
+repeat_summary2.txt.gz
+EDTA derived repeat sequence explained by genome and repeat
+
+scores_pc.txt.gz
+genetic PCA scores
